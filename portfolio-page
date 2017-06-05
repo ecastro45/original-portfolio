@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Edwin Castro | Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="styles2.css">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+</head>
+<body>
+	<div class="wrap">
+		<nav class="nav">
+			<img src="Images/down-arrow.png" height="45px" width="45px" alt="Down Arrow" class="down">
+				<ul class="menu">
+					<a href="index-a.html"><img src="Images/white-home.png" height="25" width="30" class="home"></a>
+					<li><a href="about.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+		</nav>
+
+		<section>
+			<div id="A">
+				<a href="http://www.castro4designs.com" target="_blank"><img src="Images/designs.png" width="500px" height="300px" class="site1"></a>
+
+				<div class="site-dims">
+					<p class="site-info">Castro4Designs is the very first website that I offically created. It was created at school for my Introduction to New Media course. Castro4Design is a basic website that was coded on the Sublime text editor with HTML and CSS.</p>
+
+                    <p class="site-info2">4design showcases my early work. Featured in the site you have your basic scroll down page with a footer at the bottom using 'sticky footer' to hold the footer in place which also has my name as well as two links to my social network pages. My 'Stuff' page has all the current assignments which was given to us in its completion. Please note additonal assignments will be added as the semester continues. My 'About' page gives the viewer a small description about me and my goals as well as a "Code Stars" video that I like to view for motivation. Finally my 'Contact' page gives the viewer my email address as well as my phone number if they wish to reach me for any potential design inquiries.</p>
+                </div>
+
+			</div>
+		</section>
+
+		<section>
+			<div id="B">
+
+			</div>
+		</section>
+
+		<div class="school">
+			<img src="Images/lagcc.png" class="lagcc">
+		</div>
+
+        <!-- Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-99523148-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+
+		<!-- Load the CDN first -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<!-- If CDN Fails to load, serve up the local version -->
+		<script>window.jQuery || document.write('<script src"js/jquery-3.1.1min.js"<\/script>');</script>
+		<!--Links to my own script.js file -->
+		<script src="js/scripts.js"></script>
+	</div> <!--End of Wrap -->
+	<footer>
+		<div class="end">
+			<a href="http://twitter.com/ecastro77"><img src="Images/twitter.png" alt="Twitter Logo" class="social-icon" target="_blank"></a>
+	        <a href="http://facebook.com/edwin.castro3"><img src="Images/facebook.png" alt="Facebook Logo" class="social-icon" target="_blank"></a>
+	        <a href="http://linkedin.com/in/edwin-castro-8a791988"><img src="Images/linkedin.png" alt="LinkedIn Logo" class="social-icon" target="_blank"></a>
+	        <a href="https://plus.google.com/+EdwinCastro45"><img src="Images/google-plus.png" alt="Google-Plus Logo" class="social-icon" target="_blank"></a>
+			<p class="name">Edwin Castro | 2017</p>
+			<p class="message">Coded with Adobe Dreamweaver</p>
+		</div>
+	</footer>
+</body>
+</html>
