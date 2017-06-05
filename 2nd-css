@@ -1,0 +1,350 @@
+/*==============================================================
+                        PORTFOLIO
+==============================================================*/
+
+
+
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	margin: auto;
+}
+
+body, html {
+	font-family: 'Droid Sans', sans-serif;
+	height: 100%;
+	background-image: linear-gradient(
+		rgba(34, 34, 34, 0.75),
+		rgba(34, 34, 34, 0.75)
+		),
+		url('Images/bw station photo.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 10px;
+}
+
+/*** Footer ***************************/
+
+footer {
+	background-color: #333;
+	width: 100%;
+	height: 100px;
+	border-top: 1px solid #333;
+	margin-top: 100px;
+}
+
+.end {
+	text-align: center;
+	padding: 15px;
+}
+
+.social-icon {
+  	width: 20px;
+  	height: 20px;
+  	margin: 0 5px;
+  	margin-top: 10px;
+}
+
+.name,
+.message {
+	color: #ece9e9;
+	margin-top: 5px;
+}
+
+.end a:hover {
+	border-bottom: none;
+}
+
+/*** Sticky Footer ********************/
+
+.wrap {
+	min-height: 100%;
+	margin-bottom: -100px;
+	}
+
+.wrap:after {
+	content: "";
+	display: block;
+}
+
+footer, .wrap:after {
+	height: 100px;
+}
+
+.end p {
+	font-size: .75em;
+}
+
+/*** Navigation ***********************/
+
+.nav {
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 45px;
+}
+
+.menu {
+	display: none;
+	position: absolute;
+	background-color: #333;
+	background: rgb(204, 204, 204);
+	background: rgba(204, 204, 204, 0.1);
+	width: 100%;
+	height: 75px;
+	transition-delay: 2s;
+	list-style-type: none;
+	text-decoration: underline;
+}
+
+.nav:hover .menu {
+	display: flex; /* Displays an element as an block-level flex container. CSS3 */
+	animation: fadein 2s;
+	justify-content: space-between; /* Items are positioned between the lines. */
+}
+
+.nav:hover {
+	width: 100%;
+}
+
+a:hover {
+	/*text-decoration: underline;*/
+	border-bottom: 3px solid #ff4343;
+}
+
+@keyframes fadein {
+	from {opacity: 0;}
+	to   {opacity: 5;}
+}
+
+li a {
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	font-size: 1.5em;
+	color: #ffffff;
+	text-shadow: 1px 1px #000;
+	font-weight: bolder;
+	margin: auto;
+}
+
+/*** About Me *************************/
+
+.welcome {
+	font-size: 2em;
+	color: #fff;
+	border-bottom: 2px solid #ff4343;
+	padding-bottom: 50px;
+}
+
+.lgcc {
+	text-decoration: none;
+	color: #fff;
+}
+
+.lgcc a:hover {
+	text-decoration: none;
+}
+
+.intro {
+	height: 500px;
+	width: 75%;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.photo {
+    margin-top: 30px;
+	text-align: center;
+}
+
+.edwin {
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px #000;
+}
+
+/*** Portfolio ************************/
+#A {
+/*	background-color: #fff;*/
+	width: 100%;
+	height: 500px;
+	margin-top: 200px;
+/*	box-shadow: 5px 5px 5px #000;*/
+}
+
+.site1 {
+	box-shadow: 5px 5px 5px #000;
+	margin-top: 50px;
+	margin-left: 200px;
+}
+
+#A a:hover {
+	border-bottom: none;
+}
+
+.site-dims {
+	background-color: #fff;
+	width: 500px;
+	height: 500px;
+	float: right;
+	padding: 15px;
+	margin-right: 200px;
+	margin-top: 10px;
+	line-height: 2;
+	/*	Box shadow around div	*/
+	-moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+.site-info {
+	color: #131313;
+	float: right;
+	font-weight: bold;
+}
+
+.site-dims2 {
+	background-color: #fff;
+	width: 500px;
+	height: 340px;
+	float: right;
+	padding: 15px;
+	margin-right: 200px;
+	margin-top: -310px;
+	line-height: 2;
+	/*	Box shadow around div	*/
+	-moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+.site-info2 {
+	color: #131313;
+	float: right;
+	font-weight: bold;
+}
+
+#B {
+	background-color: #fff;
+	width: 100%;
+	height: 500px;
+	margin-top: 200px;
+	box-shadow: 5px 5px 5px #000;
+}
+
+.school {
+	width: 100%;
+	height: 500px;
+	display: inline-block;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.lagcc {
+	width: 200px;
+	height: 225px;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	background-image: url('Images/lagcc.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200px 225px;
+	opacity: .5;
+}
+
+/*** Contact **************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  text-decoration: none;
+  list-style: none;
+  color: #555;
+  text-shadow: 0 0 0 #000;
+}
+
+.contact-info li.phone a {
+  background-image: url('Images/phone-call.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('Images/envelope.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('Images/twitter.png');
+}
+
+.contact-info li.linkedin a {
+  background-image: url('Images/linkedin.png');
+}
+
+h3 {
+	text-align: center;
+	padding: 40px 0 40px 0;
+	color: #555;
+	font-size: 2em;
+}
+
+.secondary {
+	height: 350px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #ccc;
+    box-shadow: 5px 5px 5px #000;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.phone,
+.mail,
+.twitter,
+.linkedin {
+	margin-left: 50px;
+	margin-bottom: 25px;
+}
+
+.contact-info a:hover {
+	border-bottom: none;
+}
+
+/*** Zoom In **************************/
+
+
+/** Extra small devices (portrait phones, less than 576px) **/
+@media (max-width: 575px) {
+    #A {
+        margin: none;
+    }
+
+ }
+
+/** Small devices (landscape phones, less than 768px) **/
+@media (max-width: 767px) { ... }
+
+/** Medium devices (tablets, less than 992px) **/
+@media (max-width: 991px) { ... }
+
+/** Large devices (desktops, less than 1200px) **/
+@media (max-width: 1199px) { ... }
+
+/** Extra large devices (large desktops) **/
+/** No media query since the extra-large breakpoint has no upper bound on its width **/
