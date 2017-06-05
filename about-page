@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Edwin Castro | About</title>
+	<link rel="stylesheet" type="text/css" href="styles2.css">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+</head>
+<body>
+	<div class="wrap">
+		<nav class="nav">
+			<img src="Images/down-arrow.png" height="45px" width="45px" alt="Down Arrow" class="down">
+				<ul class="menu">
+					<a href="index-a.html"><img src="Images/white-home.png" height="25" width="30" class="home"></a>
+					<li><a href="about.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+		</nav>
+
+		<section class="intro">
+			<div class="welcome">
+				<p>Hello, my name is Edwin! I live in Queens, New York. I am a full time student at <a href="http://www.laguardia.edu" target="_blank" class="lgcc">Laguardia Community College</a>. My major is New Media Technology with a concentration in Digital Media. I am proficient in HTML(5), CSS(3)  and I'm currently studying and gaining familiarity with JavaScript and its jQuery library. Aside from school I've been coding for over three years and I'm eager to begin helping others with their digital media needs whether it's Web Design, Development or video editing. When I'm not at work or at school I like to relax by building gaming PC's as well as playing video games. When I'm not gaming I like to sharpen my skills by learning different aspects of media from Adobe Premiere Pro, Adobe Photoshop, and Adobe Illustrator.</p>
+
+				<p>As a hobby I have taken up photography and every now and then I like to take my Canon EOS 700D out and take photos around where I live.</p>
+			</div>
+		</section>
+
+		<section class="photo">
+			<img src="Images/edwin.jpg" height="200px" width="200px" class="edwin">
+		</section>
+	</div> <!--End of Wrap -->
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-99523148-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+	<footer>
+		<div class="end">
+			<a href="http://twitter.com/ecastro77"><img src="Images/twitter.png" alt="Twitter Logo" class="social-icon" target="_blank"></a>
+	        <a href="http://facebook.com/edwin.castro3"><img src="Images/facebook.png" alt="Facebook Logo" class="social-icon" target="_blank"></a>
+	        <a href="http://linkedin.com/in/edwin-castro-8a791988"><img src="Images/linkedin.png" alt="LinkedIn Logo" class="social-icon" target="_blank"></a>
+	        <a href="https://plus.google.com/+EdwinCastro45"><img src="Images/google-plus.png" alt="Google-Plus Logo" class="social-icon" target="_blank"></a>
+			<p class="name">Edwin Castro | 2017</p>
+			<p class="message">Coded with Adobe Dreamweaver</p>
+		</div>
+	</footer>
+</body>
+</html>
